@@ -1,0 +1,74 @@
+[
+    {
+        "id":"1",
+        "name" : "Natural Skirt",
+        "price" : "230 NIS",
+        "img" : "product3.png"
+    },
+    {
+        "id":"2",
+        "name" : "Magic Cape",
+        "price" : "145 NIS",
+        "img" : "Product2.png"
+    },
+    {
+        "id":"3",
+        "name" : "Blue Shirt",
+        "price" : "135 NIS",
+        "img" : "Product1.png"
+    },
+    {
+        "id":"4",
+        "name" : "Natural Gloves",
+        "price" : "80 NIS",
+        "img" : "product4.png"
+    },
+    {
+        "id":"5",
+        "name" : "Shirt LSleeve",
+        "price" : "135 NIS",
+        "img" : "product5.png"
+    },
+    {
+        "id":"6",
+        "name" : "Natural Skirt",
+        "price" : "230 NIS",
+        "img" : "product3.png"
+    },
+    {
+        "id":"7",
+        "name" : "Magic Cape",
+        "price" : "145 NIS",
+        "img" : "Product2.png"
+    },
+    {
+        "id":"8",
+        "name" : "Blue Shirt",
+        "price" : "135 NIS",
+        "img" : "Product1.png"
+    },
+    {
+        "id":"9",
+        "name" : "Natural Gloves",
+        "price" : "80 NIS",
+        "img" : "product4.png"
+    },
+    {
+        "id":"10",
+        "name" : "Shirt LSleeve",
+        "price" : "135 NIS",
+        "img" : "product5.png"
+    },
+    {
+        "id":"11",
+        "name" : "Blue Shirt",
+        "price" : "135 NIS",
+        "img" : "Product1.png"
+    },
+    {
+        "id":"12",
+        "name" : "Shirt LSleeve",
+        "price" : "135 NIS",
+        "img" : "product5.png"
+    }
+]

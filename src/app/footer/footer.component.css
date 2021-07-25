@@ -1,0 +1,41 @@
+
+.item {
+    display: flex;
+    flex-direction: column;
+}
+
+.item a {
+    padding: 5px;
+}
+
+.social-credit a {
+    font-size: 2.5rem;
+    margin: 5px;
+}
+
+.main-footer a:hover {
+    color: dimgray;
+}
+
+footer {
+    background-color: #fafafa;
+    position: relative;
+    padding: 20px;
+    width: 100%;
+    bottom: 0;
+    margin-top: 10px;
+}
+
+.item{
+    margin-right: 5%;
+}
+
+
+input[type="text"]{
+    width: 70%;
+}
+
+.item h2{
+    margin:0;
+    padding: 5px;
+}

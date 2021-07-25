@@ -1,0 +1,33 @@
+
+.main-nav .container-wide {
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+}
+
+.main-nav .nav-links {
+    display: flex;
+}
+
+.main-nav .nav-links a {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin: 0 15px;
+    padding: 10px;
+
+}
+
+.main-nav .user a {
+    margin: 0 10px;
+}
+
+.main-nav a:hover {
+    color: dimgray;
+}
+
+.nav-links li{
+    list-style: none;
+    
+}
+
+

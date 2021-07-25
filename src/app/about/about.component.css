@@ -1,0 +1,11 @@
+.aboutText{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.aboutImg{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}

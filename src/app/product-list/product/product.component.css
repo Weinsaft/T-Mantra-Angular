@@ -1,0 +1,14 @@
+.product{
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    margin: 15px 15px;
+    align-items: center;
+    /* width: 100%; */
+    flex: 1 0 21%; /* explanation below */
+    margin: 10px;
+}
+
+.product :hover{
+    opacity: 50%;
+}

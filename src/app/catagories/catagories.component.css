@@ -1,0 +1,23 @@
+.men {
+    margin-right: 10px;
+}
+
+.woman {
+    margin-left: 10px;
+}
+
+.shop-gender .container a:hover {
+    opacity: 45%;
+}
+
+.shop-gender{
+    margin-top: 20px;
+}
+
+.container,
+.container-wide {
+    display: flex;
+    width: 100%;
+    padding: 0 15px;
+
+}
