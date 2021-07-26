@@ -1,6 +1,14 @@
 
-<span class="title">
+<span class="title" *ngIf="type=='all'">
     ALL REALESES
+</span>
+
+<span class="title" *ngIf="type=='men'">
+    MEN REALESES
+</span>
+
+<span class="title" *ngIf="type == 'women'">
+WOMEN REALESES
 </span>
 
 <div class="container">
@@ -9,3 +17,6 @@
       [product]="product">
     </app-product>
 </div>
+
+
+

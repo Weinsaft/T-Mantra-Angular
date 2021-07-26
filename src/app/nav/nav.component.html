@@ -5,7 +5,6 @@
         </div>
 
         <ul class="nav-links">
-            <li><a [routerLink]="['/home']">Home</a></li>
             <li><a [routerLink]="['/about']">about</a></li>
             <li><a [routerLink]="['/catagories']">catagories</a></li>
             <li><a [routerLink]="['/contact']">contact</a></li>
@@ -13,9 +12,39 @@
 
         <div class="user">
             <input type="text" placeholder="Search...">
-            <a href="user.html"><i class="fa fa-user"></i></a>
-            <a href="likedProducts.html"><i class="fa fa-heart"></i></a>
-            <a href="#"><i class="fa fa-shopping-cart"></i></a>
+            <button mat-button><i class="fa fa-user"></i></button>
+
+                <button  mat-button (click)="openDialog(wishlist)"><i class="fa fa-heart"></i></button>
+            <button mat-button (click)="openDialog(cart)"><i class="fa fa-shopping-cart"></i></button>
+
+<ng-template #wishlist >
+    <span mat-dialog-title>MY WISH LIST </span>
+    <div class="ng-temp">
+    <div *ngFor="let item of newWishlist" class="each-item">
+        <img  id="img"src='assets/images/{{item.img}}'>
+        <span>{{item.name}} - {{item.price}} NIS </span>
+        <span>
+            <button (click)="addToCart(item.id)" mat-button class="design-icon"> + </button>
+            <button (click)="deleteProductFromWishList(item.id)" mat-button> x </button>
+        </span>
+    </div>
+    </div>
+</ng-template>
+
+<ng-template #cart>
+    <span mat-dialog-title> MY CART LIST </span>
+    <span mat-dialog-title> TOTAL PRICE: {{totalPrice}} NIS </span>
+    <div class="ng-temp">
+    <div *ngFor="let item of newCartlist" class="each-item">
+        <img  id="img"src='assets/images/{{item.img}}'>
+        <span>{{item.name}} - {{item.price}}</span>
+        <span>
+            <button (click)="deleteProductFromCart(item.id)" mat-button> x </button>
+        </span>
+    </div>
+</div>
+</ng-template>
+
         </div>
     </div>
 </nav>

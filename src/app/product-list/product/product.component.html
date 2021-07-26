@@ -1,5 +1,7 @@
-<div class="product" (click)="openCard(product.id)">
-    <img src='assets/images/{{product.img}}'>
-    <div class="header">{{ product.name }}</div>
-    <div>Price: {{ product.price }}</div>
-  </div>
+  <div class="product" >
+    <img (click)="openCard(product.id)" src='assets/images/{{product.img}}'>
+    <div class="header btn">{{ product.name }}</div>
+    <div class="btn">Price: {{ product.price }}</div>
+  <button mat-button id="wishbutton" class = "btn" (click)="addToWishList(product.id)"><i class = "fa fa-heart"></i></button>
+</div>
+

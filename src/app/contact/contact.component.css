@@ -79,3 +79,30 @@
 .wrapper h2{
     font-size: 2rem;
 }
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+.button{
+    width: 100%;
+    background-color: #bfb8b854;
+    justify-content: center;
+    cursor: pointer;
+    padding: 15px;
+    border: none;
+    border-radius: 3px;
+    
+}
+
+.button:hover {
+opacity: 50%;
+}
+
+.invalid-feedback{
+    color:red;
+}

@@ -1,7 +1,5 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
-import { AppComponent } from './app.component';
 import { ProductDataComponent } from './product-data/product-data.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { AboutComponent } from './about/about.component';
@@ -16,12 +14,11 @@ const routes: Routes = [
   {path: 'catagories' , component: CatagoriesComponent},
   {path: 'contact' , component: ContactComponent},
   {path: 'about' , component: AboutComponent},
-  {path: 'all-products' , component: AllProductsComponent},
+  {path: 'all-products/:type' , component: AllProductsComponent},
 
 ];
-
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, {scrollPositionRestoration: 'enabled'})],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

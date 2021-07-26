@@ -2,73 +2,111 @@
     {
         "id":"1",
         "name" : "Natural Skirt",
-        "price" : "230 NIS",
-        "img" : "product3.png"
+        "img" : "product3.png",
+        "price" : 230,
+        "available": false,
+        "gender": "women"
     },
     {
         "id":"2",
         "name" : "Magic Cape",
-        "price" : "145 NIS",
-        "img" : "Product2.png"
+        "price" : 145,
+        "img" : "Product2.png",
+        "available": true,
+        "gender": "women"
     },
     {
         "id":"3",
         "name" : "Blue Shirt",
-        "price" : "135 NIS",
-        "img" : "Product1.png"
+        "price" : 135,
+        "img" : "Product1.png",
+        "available": true,
+        "gender": "men"
     },
     {
         "id":"4",
         "name" : "Natural Gloves",
-        "price" : "80 NIS",
-        "img" : "product4.png"
+        "price" : 80,
+        "img" : "product4.png",
+        "available": true,
+        "gender": "women"
     },
     {
         "id":"5",
         "name" : "Shirt LSleeve",
-        "price" : "135 NIS",
-        "img" : "product5.png"
+        "price" : 135,
+        "img" : "product5.png",
+        "available": false,
+        "gender": "women"
     },
     {
         "id":"6",
         "name" : "Natural Skirt",
-        "price" : "230 NIS",
-        "img" : "product3.png"
+        "price" : 230,
+        "img" : "product3.png",
+        "available": false,
+        "gender": "men"
+
+
     },
     {
         "id":"7",
         "name" : "Magic Cape",
-        "price" : "145 NIS",
-        "img" : "Product2.png"
+        "price" : 145,
+        "img" : "Product2.png",
+        "available": true,
+        "gender": "men"
+
+
     },
     {
         "id":"8",
         "name" : "Blue Shirt",
-        "price" : "135 NIS",
-        "img" : "Product1.png"
+        "price" : 135,
+        "img" : "Product1.png",
+        "available": true,
+        "gender": "men"
+
+
     },
     {
         "id":"9",
         "name" : "Natural Gloves",
-        "price" : "80 NIS",
-        "img" : "product4.png"
+        "price" : 80,
+        "img" : "product4.png",
+        "available": true,
+        "gender": "women"
+
+
     },
     {
         "id":"10",
         "name" : "Shirt LSleeve",
-        "price" : "135 NIS",
-        "img" : "product5.png"
+        "price" : 135,
+        "img" : "product5.png",
+        "available": true,
+        "gender": "men"
+
+
     },
     {
         "id":"11",
         "name" : "Blue Shirt",
-        "price" : "135 NIS",
-        "img" : "Product1.png"
+        "price" : 135,
+        "img" : "Product1.png",
+        "available": true,
+        "gender": "women"
+
+
     },
     {
         "id":"12",
         "name" : "Shirt LSleeve",
-        "price" : "135 NIS",
-        "img" : "product5.png"
+        "price" : 135,
+        "img" : "product5.png",
+        "available": true,
+        "gender": "women"
+
+
     }
 ]

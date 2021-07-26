@@ -82,8 +82,9 @@ img{
     color: #f64749;
     text-decoration: line-through;
 }
-.new-price span{
+.price span{
     color: #256eff;
+    font-size: 2rem;
 }
 .product-detail h2{
     text-transform: capitalize;
@@ -188,4 +189,8 @@ img{
 
 .card-single{
     margin-left: 20px;
+}
+
+#red-design{
+    color: red;
 }

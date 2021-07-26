@@ -1,33 +1,40 @@
-<!-- 
-
-
-
   <div class="Fwrapper">
     <div class="wrapper">
         <h2>Contact us</h2>
         <div id="error_message"></div>
-        <form [formGroup]="profileForm">
+        <form [formGroup]="profileForm" >
           <div class="input_field">
             <input id="firstname" type="text" formControlName="firstName" placeholder="Fullname">
+            <div *ngIf="submitted && f.firstName.errors" class="invalid-feedback">
+              <div *ngIf="f.firstName.errors.required">First Name is required</div>
+          </div>
           </div>
           <div class="input_field">
             <input id="lastname" type="text" formControlName="lastName" placeholder="Lastname">
+            <div *ngIf="submitted && f.lastName.errors" class="invalid-feedback">
+              <div *ngIf="f.lastName.errors.required">First Name is required</div>
+          </div>
           </div>
           <div class="input_field">
             <input id="email" type="text" formControlName="email" placeholder="Email">
+            <div *ngIf="submitted && f.email.errors" class="invalid-feedback">
+              <div *ngIf="f.email.errors.required">Email is required</div>
+              <div *ngIf="f.email.errors.email">Email must be a valid email address</div>
+          </div>
           </div>
           <div class="input_field">
             <input id="subject" type="text" formControlName="subject" placeholder="Subject">
+            <div *ngIf="submitted && f.subject.errors" class="invalid-feedback">
+              <div *ngIf="f.subject.errors.required">Subject is required</div>
+          </div>
           </div>
           <div class="input_field">
-              <textarea placeholder="Message" id="message"></textarea>
+              <textarea placeholder="Message" formControlName="text" id="message"></textarea>
+              <div *ngIf="submitted && f.text.errors" class="invalid-feedback">
+                <div *ngIf="f.text.errors.required">Required</div>
+            </div>
           </div>
-          <div class="btn">
-              <input type="submit">
-          </div>
+            <button class="button" (click)="onSubmit()">SUBMIT</button>
         </form>
       </div>    
 </div>
- -->
-
- 

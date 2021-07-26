@@ -15,6 +15,8 @@ export class ProductComponent implements OnInit {
   ) {
    }
   @Input() product: Product
+  wishList:any[]=[]; 
+  cart:any[]=[];
 
   ngOnInit(): void {
   }
@@ -22,5 +24,12 @@ export class ProductComponent implements OnInit {
   openCard(id: Number){
     this._router.navigateByUrl('/product/' +id)
   }
-
+  
+  addToWishList(id: number){
+    this.wishList= JSON.parse(localStorage.getItem("wish-list"));
+    if(this.wishList==null)
+      this.wishList=[];
+    this.wishList.push(id);
+    localStorage.setItem("wish-list", JSON. stringify(this.wishList))
+  }
 }

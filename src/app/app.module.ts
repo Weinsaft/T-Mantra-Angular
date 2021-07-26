@@ -14,6 +14,8 @@ import { CatagoriesComponent } from './catagories/catagories.component';
 import { ContactComponent } from './contact/contact.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { AllProductsComponent } from './all-products/all-products.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AngularMaterialModule } from './angular-material.module';
 
 @NgModule({
   declarations: [
@@ -29,11 +31,16 @@ import { AllProductsComponent } from './all-products/all-products.component';
     CatagoriesComponent,
     ContactComponent,
     AllProductsComponent,
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    BrowserModule,
+    AppRoutingModule,
+    AngularMaterialModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
