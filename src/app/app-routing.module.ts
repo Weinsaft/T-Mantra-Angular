@@ -7,7 +7,7 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { AboutComponent } from './about/about.component';
 import { CatagoriesComponent } from './catagories/catagories.component';
 import { ContactComponent } from './contact/contact.component';
-import { ProductListComponent } from './product-list/product-list.component';
+import { AllProductsComponent } from './all-products/all-products.component';
 
 const routes: Routes = [
   { path: '', component: HomePageComponent },
@@ -16,7 +16,7 @@ const routes: Routes = [
   {path: 'catagories' , component: CatagoriesComponent},
   {path: 'contact' , component: ContactComponent},
   {path: 'about' , component: AboutComponent},
-  {path: 'products-list' , component: ProductListComponent},
+  {path: 'all-products' , component: AllProductsComponent},
 
 ];
 

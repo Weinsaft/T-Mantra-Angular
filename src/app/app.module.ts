@@ -12,6 +12,8 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { AboutComponent } from './about/about.component';
 import { CatagoriesComponent } from './catagories/catagories.component';
 import { ContactComponent } from './contact/contact.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { AllProductsComponent } from './all-products/all-products.component';
 
 @NgModule({
   declarations: [
@@ -26,10 +28,12 @@ import { ContactComponent } from './contact/contact.component';
     AboutComponent,
     CatagoriesComponent,
     ContactComponent,
+    AllProductsComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
