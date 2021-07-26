@@ -1,17 +1,18 @@
 .container {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.title{
-    display: flex;
-    justify-content: center;
-    padding: 20ox;
-    font-size: 30px;
-    margin-bottom: 10px;
+.title {
+  display: flex;
+  justify-content: center;
+  padding: 20ox;
+  font-size: 30px;
+  margin: 30px 0 10px 0;
+  
 }
 
-.design-icons{
-    margin: 6px;
-    color: rgb(71, 67, 67);
+.design-icons {
+  margin: 6px;
+  color: rgb(71, 67, 67);
 }

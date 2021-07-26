@@ -7,14 +7,17 @@ import * as products from '../data/products.json';
   templateUrl: './all-products.component.html',
   styleUrls: ['./all-products.component.css']
 })
+
+
 export class AllProductsComponent implements OnInit {
-  @Input() products: Product[];
+  allProducts: Product[];
 
   constructor() { }
-
   ngOnInit(): void {
-    this.products= products["default"]; 
-    console.log(this.products)
+console.log(products);
+
+
+  this.allProducts= products["default"]; 
   }
 
 }

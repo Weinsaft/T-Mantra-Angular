@@ -1,13 +1,11 @@
 
 <span class="title">
-    <!-- <i class="fa fa-star design-icons"></i> -->
     ALL REALESES
-
 </span>
 
 <div class="container">
     <app-product
-     *ngFor="let product of products"
+     *ngFor="let product of allProducts"
       [product]="product">
     </app-product>
 </div>

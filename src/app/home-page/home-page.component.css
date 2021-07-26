@@ -17,3 +17,23 @@ img {
     height: auto;
 }
 
+.title {
+    display: flex;
+    justify-content: center;
+    padding: 20ox;
+    font-size: 30px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+  }
+
+  h2{
+    border-bottom: 2px solid black;
+
+  }
+  
+  .design-icons {
+    margin: 6px;
+    color: rgb(71, 67, 67);
+  }
+
+  
