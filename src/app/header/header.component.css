@@ -1,5 +1,27 @@
-.container-wide{
+.container,
+.container-wide {
     display: flex;
     width: 100%;
     padding: 0 15px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+@media screen and (min-width:1200px) {
+
+    .container,
+    .container-wide {
+        width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width:1600px) {
+    .container,
+    .container-wide {
+        width: 1600px;
+        margin: 0 auto;
+    }
 }

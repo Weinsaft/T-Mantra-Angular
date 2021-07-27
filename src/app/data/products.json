@@ -1,49 +1,49 @@
 [
     {
         "id":"1",
-        "name" : "Natural Skirt",
-        "img" : "product3.png",
-        "price" : 230,
+        "name" : "Basic Grey Shirt",
+        "img" : "products1.jpg",
+        "price" : 120,
         "available": false,
-        "gender": "women"
+        "gender": "men"
     },
     {
         "id":"2",
-        "name" : "Magic Cape",
+        "name" : "Side Polo Shirt",
         "price" : 145,
-        "img" : "Product2.png",
+        "img" : "products2.jpg",
         "available": true,
-        "gender": "women"
+        "gender": "men"
     },
     {
         "id":"3",
-        "name" : "Blue Shirt",
+        "name" : "Gshirt",
         "price" : 135,
-        "img" : "Product1.png",
+        "img" : "products3.jpg",
         "available": true,
         "gender": "men"
     },
     {
         "id":"4",
-        "name" : "Natural Gloves",
+        "name" : "No Sleevess",
         "price" : 80,
-        "img" : "product4.png",
+        "img" : "products4.jpg",
         "available": true,
-        "gender": "women"
+        "gender": "men"
     },
     {
         "id":"5",
         "name" : "Shirt LSleeve",
         "price" : 135,
-        "img" : "product5.png",
+        "img" : "products5.jpg",
         "available": false,
-        "gender": "women"
+        "gender": "men"
     },
     {
         "id":"6",
-        "name" : "Natural Skirt",
+        "name" : "Black Kapochoon",
         "price" : 230,
-        "img" : "product3.png",
+        "img" : "products6.jpg",
         "available": false,
         "gender": "men"
 
@@ -51,9 +51,9 @@
     },
     {
         "id":"7",
-        "name" : "Magic Cape",
+        "name" : "B/G T-Shirt",
         "price" : 145,
-        "img" : "Product2.png",
+        "img" : "products7.jpg",
         "available": true,
         "gender": "men"
 
@@ -61,9 +61,9 @@
     },
     {
         "id":"8",
-        "name" : "Blue Shirt",
+        "name" : "Short B Bottoms",
         "price" : 135,
-        "img" : "Product1.png",
+        "img" : "products8.jpg",
         "available": true,
         "gender": "men"
 
@@ -71,19 +71,19 @@
     },
     {
         "id":"9",
-        "name" : "Natural Gloves",
+        "name" : "Army Bottom",
         "price" : 80,
-        "img" : "product4.png",
-        "available": true,
-        "gender": "women"
+        "img" : "products9.jpg",
+        "available": false,
+        "gender": "men"
 
 
     },
     {
         "id":"10",
-        "name" : "Shirt LSleeve",
+        "name" : "Funny Pack Pouch",
         "price" : 135,
-        "img" : "product5.png",
+        "img" : "products10.jpg",
         "available": true,
         "gender": "men"
 
@@ -91,9 +91,9 @@
     },
     {
         "id":"11",
-        "name" : "Blue Shirt",
+        "name" : "White Strips",
         "price" : 135,
-        "img" : "Product1.png",
+        "img" : "products11.jpg",
         "available": true,
         "gender": "women"
 
@@ -101,12 +101,74 @@
     },
     {
         "id":"12",
-        "name" : "Shirt LSleeve",
+        "name" : "Queen Witch",
         "price" : 135,
-        "img" : "product5.png",
+        "img" : "products12.jpg",
         "available": true,
         "gender": "women"
-
-
+    },
+    {
+        "id":"13",
+        "name" : "Black Short Dress",
+        "price" : 135,
+        "img" : "products13.jpg",
+        "available": false,
+        "gender": "women"
+    },
+    {
+        "id":"14",
+        "name" : "W Top",
+        "price" : 135,
+        "img" : "products14.jpg",
+        "available": true,
+        "gender": "women"
+    },
+    {
+        "id":"15",
+        "name" : "W Top Beltin",
+        "price" : 135,
+        "img" : "products15.jpg",
+        "available": true,
+        "gender": "women"
+    },
+    {
+        "id":"16",
+        "name" : "Black Cape",
+        "price" : 135,
+        "img" : "products16.jpg",
+        "available": false,
+        "gender": "women"
+    },
+    {
+        "id":"17",
+        "name" : "Buggy Pants",
+        "price" : 135,
+        "img" : "products17.jpg",
+        "available": false,
+        "gender": "women"
+    },
+    {
+        "id":"18",
+        "name" : "JJJJJeans",
+        "price" : 135,
+        "img" : "products18.jpg",
+        "available": true,
+        "gender": "women"
+    },
+    {
+        "id":"19",
+        "name" : "BlackNYellow",
+        "price" : 135,
+        "img" : "products19.jpg",
+        "available": true,
+        "gender": "women"
+    },
+    {
+        "id":"20",
+        "name" : "ButterFly",
+        "price" : 135,
+        "img" : "products20.jpg",
+        "available": true,
+        "gender": "women"
     }
 ]

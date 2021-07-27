@@ -11,10 +11,13 @@
         </ul>
 
         <div class="user">
-            <input type="text" placeholder="Search...">
+            
+
+            
+
             <button mat-button><i class="fa fa-user"></i></button>
 
-                <button  mat-button (click)="openDialog(wishlist)"><i class="fa fa-heart"></i></button>
+            <button  mat-button (click)="openDialog(wishlist)"><i class="fa fa-heart"></i></button>
             <button mat-button (click)="openDialog(cart)"><i class="fa fa-shopping-cart"></i></button>
 
 <ng-template #wishlist >
@@ -42,7 +45,9 @@
             <button (click)="deleteProductFromCart(item.id)" mat-button> x </button>
         </span>
     </div>
+    
 </div>
+<button id="checkout" mat-button>CHECK OUT</button>
 </ng-template>
 
         </div>

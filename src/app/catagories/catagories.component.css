@@ -1,9 +1,13 @@
 .men {
     margin-right: 10px;
+    
+    
 }
 
 .woman {
     margin-left: 10px;
+    margin-top: 5px;
+   
 }
 
 .shop-gender .container a:hover {
@@ -23,5 +27,44 @@
     display: flex;
     width: 100%;
     padding: 0 15px;
+    justify-content: center;
+    align-items: center;
 
+}
+
+
+@media screen and (min-width:1200px) {
+
+    .container,
+    .container-wide {
+        width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width:1600px) {
+    .container,
+    .container-wide {
+        width: 1600px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .shop-gender{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .men {
+       margin-right: 0;
+    }
+    
+    .woman {
+        margin-left: 0;
+    }
+   
+    
 }
